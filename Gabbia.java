@@ -13,5 +13,22 @@ public class Gabbia extends Cane{
         this.cane = cane;
         this.dimensione = dimensione;
     }
-
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    public void setDimensione(int dimensione) {
+        this.dimensione = dimensione;
+    }
+    public void setCane(ArrayList cani) {
+        this.cane = cani;
+    }
+    public int getNumero() {
+        return this.numero;
+    }
+    public int getDimensione() {
+        return this.dimensione;
+    }
+    public ArrayList getCane(){
+        return this.cane;
+    }
 }

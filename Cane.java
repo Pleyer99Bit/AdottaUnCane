@@ -1,4 +1,4 @@
-public class Cane {
+public class Cane{
     public String razza, nome, datadinascita;
     public Cane(){
         razza = "";
