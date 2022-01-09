@@ -1,31 +1,31 @@
 public class Cane {
-    public String Razza, Nome, Datadinascita;
+    public String razza, nome, datadinascita;
     public Cane(){
-        Razza = "";
-        Nome = "";
-        Datadinascita = "";
+        razza = "";
+        nome = "";
+        datadinascita = "";
     }
-    public Cane(String Razza, String Nome, String Datadinascita) {
-        this.Razza = Razza;
-        this.Nome = Nome;
-        this.Datadinascita = Datadinascita;
+    public Cane(String razza, String nome, String datadinascita) {
+        this.razza = razza;
+        this.nome = nome;
+        this.datadinascita = datadinascita;
     }
-    public void setNome(String Nome){
-        this.Nome = Nome;
+    public void setNome(String nome){
+        this.nome = nome;
     }
-    public void setDatadinascita(String Datadinascita){
-        this.Datadinascita = Datadinascita;
+    public void setDatadinascita(String datadinascita){
+        this.datadinascita = datadinascita;
     }
-    public void setRazza(String Razza){
-        this.Razza = Razza;
+    public void setRazza(String razza){
+        this.razza = razza;
     }
     public String getRazza(){
-        return this.Razza;
+        return this.razza;
     }
     public String getDatadinascita(){
-        return this.Datadinascita;
+        return this.datadinascita;
     }
     public String getNome() {
-        return this.Nome;
+        return this.nome;
     }
 }

@@ -1,16 +1,17 @@
 import java.util.*;
 public class Gabbia extends Cane{
     public ArrayList <Cane> cane = new ArrayList<Cane>();
-    public int Numero, Dimensione;
+    public int numero, dimensione;
     public Gabbia() {
         super();
-        Numero = 0;
-        Dimensione = 0;
+        numero = 0;
+        dimensione = 0;
     }
-    public Gabbia(String Razza, String Nome, String Datadinascita, ArrayList cane, int Numero, int Dimensione) {
-        super(Razza);
-        this.Numero = Numero;
+    public Gabbia(String razza, String nome, String datadinascita, ArrayList cane, int numero, int dimensione) {
+        super(razza, nome, datadinascita);
+        this.numero = numero;
         this.cane = cane;
-        this.Numero = Numero;
+        this.dimensione = dimensione;
     }
+
 }
